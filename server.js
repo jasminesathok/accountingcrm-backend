@@ -10,7 +10,8 @@ const app = express();
 const allowedOrigins = [
   "http://localhost:5173",
   "https://acc.aminoid.in",
-  "https://accountantcrm-frontend.vercel.app"
+  "https://accountantcrm-frontend.vercel.app",
+  "https://accountingcrm-frontend.onrender.com"
 ];
 
 app.use(cors({
